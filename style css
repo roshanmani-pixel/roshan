@@ -1,0 +1,55 @@
+*{
+    margin: :0;
+    padding:0;
+    box-size:borde-box;
+}
+body{
+    font-family: 'sego UI' ,sana-serif;
+    background: #f4f6f8;
+    color: #333;
+    line-height: 1.6;
+}
+header{
+    background: #005f73;
+    color: #FFF;
+    padding: 20PX;
+    text-align: center;
+}
+nav{
+    background: #0a9396;
+    display: flex;
+    justify-content: center;
+}
+nav a{
+    color: #FFF;
+    padding: 15PX 20PX;
+    text-decoration: none;
+    transition: background 0.3;
+}
+nav a:hover{
+    background-color: #94d2bd;
+    color: #000;
+}
+.hero{
+    text-align: center;
+    padding: 60PX 20PX;
+    background: linear-gradient(to right, #005f73,#30a9396);
+    color: #FFF;
+}
+.content{
+    padding: 40PX 20PX;
+}
+.content.box-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.content.box{
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding:  20px;
+    width: 280px;
+    transition: transform 0.3s ease,box-;
+}
